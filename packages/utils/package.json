@@ -4,7 +4,11 @@
   "main": "index.js",
   "author": "José Andersson",
   "license": "MIT",
+  "scripts": {
+    "lint": "eslint \"./**/*.{ts,tsx}\""
+  },
   "devDependencies": {
-    "@alura/tsconfig-commons": "*"
+    "@alura/tsconfig-commons": "*",
+    "@alura/eslint-commons": "*"
   }
 }
