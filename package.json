@@ -9,13 +9,16 @@
   },
   "scripts": {
     "lint": "yarn workspaces run lint",
-    "web-public": "yarn workspace @alura/web-public",
+    "test": "yarn workspaces run test",
+    "web-public": "yarn workspaces @alura/web-public",
     "dev:web-public": "yarn web-public dev",
     "build:web-public": "yarn web-public build",
     "start:web-public": "yarn web-public start",
+    "test:web-public": "yarn web-public test",
     "lint:web-public": "yarn web-public lint",
-    "design-system": "yarn workspace @alura/design-system",
-    "utils": "yarn workspace @alura/utils",
+    "design-system": "yarn workspaces @alura/design-system",
+    "test:design-system": "yarn design-system test",
+    "utils": "yarn workspaces @alura/utils",
     "test:utils": "yarn utils test"
   },
   "dependencies": {

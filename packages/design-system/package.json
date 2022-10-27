@@ -5,12 +5,14 @@
   "author": "José Andersson",
   "license": "MIT",
   "scripts": {
+    "test": "jest",
     "lint": "eslint \"./**/*.{ts,tsx}\""
   },
   "dependencies": {
     "styled-components": "^5.3.6"
   },
   "devDependencies": {
+    "@alura/test-commons": "*",
     "@alura/tsconfig-commons": "*",
     "@alura/eslint-commons": "*"
   }

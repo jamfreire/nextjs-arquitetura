@@ -8,6 +8,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "test": "jest",
     "lint": "eslint \"./**/*.{ts,tsx}\""
   },
   "dependencies": {
@@ -19,6 +20,7 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@alura/test-commons": "*",
     "@alura/tsconfig-commons": "*",
     "@alura/eslint-commons": "*",
     "next-compose-plugins": "^2.2.1",
